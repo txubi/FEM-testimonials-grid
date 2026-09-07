@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --black: #121212;
+  --dark-blue: #19202d;
+  --white: #ffffff;
+  --grey100: #e7eaee;
+  --grey200: #cfcfcf;
+  --grey400: #676d7e;
+  --grey500: #48556a;
+  --purple50: #ede4ff;
+  --purple300: #a775f1;
+  --purple500: #733fc8;
+}
+
+.text-preset-1 {
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.text-preset-2 {
+  font-size: 13px;
+  line-height: 110%;
+  letter-spacing: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.text-preset-3 {
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.text-preset-4 {
+  font-size: 11px;
+  letter-spacing: 0px;
+  line-height: 110px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
