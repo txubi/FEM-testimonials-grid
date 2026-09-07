@@ -180,6 +180,25 @@ img {
     .card:nth-of-type(5) {
       grid-column: span 2;
     }
+    #first-card-wrapper {
+      position: relative;
+      z-index: 1;
+    }
+    #first-card-wrapper::before {
+      position: absolute;
+      content: ""; /* Required for the pseudo-element to render */
+      display: inline-block; /* Allows setting width and height */
+      flex-shrink: 0; /* Keeps the icon from shrinking next to the text */
+      width: 102px;
+      height: 104px;
+      margin-right: 5px; /* Adds space between the icon and text */
+      background-image: url("../images/bg-pattern-quotation.svg");
+      background-size: contain; /* Ensures the icon fits the box scales */
+      background-repeat: no-repeat;
+      top: -30px;
+      right: 0;
+      z-index: -1;
+    }
   }
 }
 @media (min-width: 1024px) {
