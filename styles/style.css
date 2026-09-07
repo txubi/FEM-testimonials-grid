@@ -59,7 +59,7 @@ img {
 }
 .container {
   display: grid;
-  width: 305px;
+  width: 90%;
   row-gap: 32px;
   margin: 93px 0;
   .card {
@@ -167,6 +167,30 @@ img {
       .verified {
         color: var(--grey400);
       }
+    }
+  }
+}
+@media (min-width: 767px) {
+  .container {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    .card:nth-of-type(1),
+    .card:nth-of-type(4),
+    .card:nth-of-type(5) {
+      grid-column: span 2;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    .card:nth-of-type(1),
+    .card:nth-of-type(4),
+    .card:nth-of-type(5) {
+      grid-column: span 2;
     }
   }
 }
