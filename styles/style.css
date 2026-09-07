@@ -46,3 +46,73 @@
   font-weight: 500;
   font-style: normal;
 }
+body {
+  width: 100vw;
+  background-color: var(--grey100);
+  display: flex;
+  justify-content: center;
+  .container {
+    display: grid;
+    width: 305px;
+    row-gap: 32px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      padding: 32px;
+      .card-author {
+        background-color: tomato;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start; */
+        height: 14px;
+      }
+    }
+    .card:nth-of-type(1) {
+      background-color: var(--purple500);
+      p:first-of-type {
+        color: white;
+      }
+      p:last-of-type {
+        color: var(--purple50);
+      }
+    }
+    .card:nth-of-type(2) {
+      background-color: var(--grey500);
+      p:first-of-type {
+        color: white;
+      }
+      p:last-of-type {
+        color: var(--grey100);
+      }
+    }
+    .card:nth-of-type(3) {
+      background-color: var(--white);
+      p:first-of-type {
+        color: var(--grey500);
+      }
+      p:last-of-type {
+        color: var(--grey400);
+      }
+    }
+    .card:nth-of-type(4) {
+      background-color: var(--dark-blue);
+      p:first-of-type {
+        color: var(--grey200);
+      }
+      p:last-of-type {
+        color: var(--grey100);
+      }
+    }
+    .card:nth-of-type(5) {
+      background-color: var(--white);
+      p:first-of-type {
+        color: var(--grey500);
+      }
+      p:last-of-type {
+        color: var(--grey400);
+      }
+    }
+  }
+}
