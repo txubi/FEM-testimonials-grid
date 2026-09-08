@@ -50,3 +50,7 @@ CSS grid
 
 - Website - [Jon Avila](https://www.jmavila.com)
 - Frontend Mentor - [@txubi](https://www.frontendmentor.io/profile/txubi)
+
+## Thank You!
+
+- [Abdelrhman Abdelaal](https://www.frontendmentor.io/profile/mrblackvanta) for the accessibility advice and debugging tips.
